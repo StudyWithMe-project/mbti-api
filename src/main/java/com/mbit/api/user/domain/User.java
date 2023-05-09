@@ -35,7 +35,6 @@ public class User extends BaseTimeEntity {
 
     @Column(columnDefinition = "tinytext not null COMMENT '권한'")
     @Builder.Default
-    @Convert(converter = UserRoleConverter.class)
     private List<UserRole> userRole = new ArrayList<>();
 
     @Builder
