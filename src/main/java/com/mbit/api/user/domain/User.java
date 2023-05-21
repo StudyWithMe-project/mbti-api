@@ -1,6 +1,7 @@
 package com.mbit.api.user.domain;
 
 import com.mbit.api.common.BaseTimeEntity;
+import com.mbit.api.common.constant.UserRole;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

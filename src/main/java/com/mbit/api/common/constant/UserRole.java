@@ -1,4 +1,4 @@
-package com.mbit.api.user.domain;
+package com.mbit.api.common.constant;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonValue;

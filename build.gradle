@@ -38,6 +38,8 @@ dependencies {
 	annotationProcessor 'org.projectlombok:lombok-mapstruct-binding:0.2.0'
 	annotationProcessor 'org.mapstruct:mapstruct-processor:1.5.3.Final'
 
+	implementation group: 'com.google.guava', name: 'guava', version: '30.1.1-jre'
+
 	// query dsl
 	def queryDSL = '5.0.0'
 
